@@ -100,7 +100,16 @@ Repositories are NOT intended for:
 
 GitHub Organization:
 
-https://github.com/ResetRayAI
+https://github.com/ResetRayAI 
+
+Canonical documentation:
+
+https://docs.resetray.ru
+
+Semantic ecosystem:
+
+https://docs.resetray.ru/ecosystem/
+
 
 Websites:
 
