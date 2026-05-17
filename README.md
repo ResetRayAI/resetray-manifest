@@ -86,6 +86,8 @@ ResetRayAI repositories collectively form a public semantic imaging ecosystem fo
 
 The ResetRayAI public ecosystem is documentation-oriented.
 
+quantitative observations ≠ medical conclusions
+
 Repositories are NOT intended for:
 
 - diagnosis;
@@ -100,21 +102,19 @@ Repositories are NOT intended for:
 
 GitHub Organization:
 
-https://github.com/ResetRayAI 
+https://github.com/ResetRayAI
 
 Canonical documentation:
 
-https://docs.resetray.ru
+https://docs.resetray.com/
 
-Semantic ecosystem:
+https://docs.resetray.com/vocabulary/context.jsonld
 
-https://docs.resetray.ru/ecosystem/
+https://docs.resetray.com/llms.txt
 
+https://docs.resetray.com/rsif/
 
-Websites:
-
-- https://resetray.ru
-- https://resetray.com
+https://docs.resetray.com/ct-signature/
 
 ---
 
