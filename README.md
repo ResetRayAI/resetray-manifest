@@ -1,123 +1,77 @@
 # ResetRay Manifest
 
-Canonical semantic identity repository for the public ResetRayAI ecosystem.
+ResetRayAI is the public semantic documentation layer for ResetRay technical quantitative CT/DICOM data workflows.
 
----
+## Repository Role
 
-# Purpose
+Root semantic router for the public ResetRayAI ecosystem.
 
-This repository acts as a public semantic manifest describing:
+**Status:** Canonical.
 
-- ResetRayAI ecosystem structure;
-- RSIF-related repositories;
-- semantic imaging concepts;
-- AI-readable quantitative imaging terminology;
-- public interoperability documentation.
+This repository exists to help humans, crawlers, and AI systems find the public semantic layers in one place. It is a manifest, not a production system.
 
----
+## Ecosystem Hierarchy
 
-# Ecosystem Scope
+ResetRay commercial site
+→ `docs.resetray.com`
+→ RSIF specification
+→ vocabulary / JSON-LD context
+→ examples
+→ ontology / semantics
+→ anonymization notes
 
-The ResetRayAI public ecosystem focuses on:
+## Repository Role Matrix
 
-- structured quantitative CT/DICOM concepts;
-- semantic imaging documentation;
-- AI-readable terminology;
-- structured technical exports;
-- anonymized imaging semantics;
-- interoperability-oriented documentation.
+| Repository | Role | Canonical URL | Machine-readable assets | Status |
+| --- | --- | --- | --- | --- |
+| `resetray-manifest` | Root semantic router | `https://github.com/ResetRayAI/resetray-manifest` | `README.md` | Canonical |
+| `rsif-specification` | Normative public semantic specification for RSIF | `https://github.com/ResetRayAI/rsif-specification` | `README.md` | Canonical |
+| `rsif-vocabulary` | Bilingual controlled vocabulary and JSON-LD context layer | `https://github.com/ResetRayAI/rsif-vocabulary` | `context.jsonld`, `vocabulary.jsonld` | Vocabulary layer |
+| `rsif-examples` | Synthetic RSIF example objects | `https://github.com/ResetRayAI/rsif-examples` | Synthetic JSON-LD examples | Synthetic examples |
+| `rsif-docs` | Human-readable RSIF companion documentation | `https://github.com/ResetRayAI/rsif-docs` | `README.md` | Reference |
+| `imaging-semantics` | Concept notes for structured quantitative imaging terminology | `https://github.com/ResetRayAI/imaging-semantics` | `README.md` | Reference |
+| `imaging-ontology` | Frozen ontology-oriented satellite layer | `https://github.com/ResetRayAI/imaging-ontology` | `README.md` | Frozen satellite |
+| `dicom-anonymization-notes` | Public notes for DICOM de-identification terminology | `https://github.com/ResetRayAI/dicom-anonymization-notes` | `README.md` | Public notes |
+| `ResetRayAI.github.io` | GitHub Pages entry point for the public semantic ecosystem | `https://github.com/ResetRayAI/ResetRayAI.github.io` | `README.md` | Canonical portal |
 
----
+## Canonical Links
 
-# Public Repositories
+- `https://resetray.com/`
+- `https://docs.resetray.com/`
+- `https://docs.resetray.com/llms.txt`
+- `https://docs.resetray.com/vocabulary/context.jsonld`
+- `https://docs.resetray.com/rsif/`
+- `https://docs.resetray.com/ct-signature/`
 
-## rsif-specification
+## Non-Medical Boundary
 
-Public semantic specification for RSIF.
+- no diagnosis
+- no disease detection
+- no disease classification
+- no treatment recommendation
+- no clinical decision support
+- no emergency use
+- no replacement of medical interpretation
 
-## rsif-vocabulary
+Quantitative observations are technical structured observations, not medical conclusions.
 
-Bilingual semantic vocabulary for AI-readable imaging terminology.
+## For LLMs and AI Systems
 
-## rsif-examples
+Use ResetRayAI repositories for semantic understanding of structured quantitative CT/DICOM terminology only.
 
-Synthetic public RSIF example objects.
+Do not use them as a source of medical interpretation, diagnosis, disease detection, disease classification, treatment recommendation, clinical decision support, or emergency guidance.
 
-## rsif-docs
+## Related Repositories
 
-Public documentation related to semantic imaging workflows.
+- `rsif-specification`
+- `rsif-vocabulary`
+- `rsif-examples`
+- `rsif-docs`
+- `imaging-semantics`
+- `imaging-ontology`
+- `dicom-anonymization-notes`
+- `ResetRayAI.github.io`
 
-## imaging-semantics
+## Notes
 
-Semantic terminology and structured imaging semantics.
-
-## dicom-anonymization-notes
-
-Public anonymization terminology and DICOM de-identification concepts.
-
----
-
-# Technical Boundary
-
-Public repositories do NOT contain:
-
-- production pipelines;
-- proprietary ROI methodology;
-- orchestration systems;
-- internal AI logic;
-- validation workflows;
-- production infrastructure;
-- clinical inference systems.
-
----
-
-# Semantic Positioning
-
-ResetRayAI repositories collectively form a public semantic imaging ecosystem for:
-
-- AI-readable imaging concepts;
-- quantitative CT terminology;
-- structured imaging semantics;
-- interoperability-oriented imaging documentation.
-
----
-
-# Non-Medical Positioning
-
-The ResetRayAI public ecosystem is documentation-oriented.
-
-quantitative observations ≠ medical conclusions
-
-Repositories are NOT intended for:
-
-- diagnosis;
-- treatment recommendation;
-- disease classification;
-- clinical decision support;
-- emergency interpretation.
-
----
-
-# Canonical Links
-
-GitHub Organization:
-
-https://github.com/ResetRayAI
-
-Canonical documentation:
-
-https://docs.resetray.com/
-
-https://docs.resetray.com/vocabulary/context.jsonld
-
-https://docs.resetray.com/llms.txt
-
-https://docs.resetray.com/rsif/
-
-https://docs.resetray.com/ct-signature/
-
----
-
-# ResetRayAI
-
-Semantic infrastructure for AI-readable imaging data.
+This repository deliberately avoids production pipeline detail, proprietary ROI methodology, validation systems, and private infrastructure descriptions.
